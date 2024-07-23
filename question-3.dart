@@ -10,8 +10,49 @@ void main() {
     "Saturday",
     "Sunday"
   ];
-  for (int i = 0; i <= 6; i++) {
+  for (int i = 0; i < days.length; i = 0) {
     days.removeLast();
     print(days);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// void main() {
+//   List days = [
+//     "Monday",
+//     "Tuesday",
+//     "Wednesday",
+//     "Thursday",
+//     "Friday",
+//     "Saturday",
+//     "Sunday"
+//   ];
+//   for (int i = 0; i <= 6; i++) {
+//     days.removeLast();
+//     print(days);
+//   }
+// }
