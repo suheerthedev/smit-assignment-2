@@ -6,34 +6,3 @@ void main() {
     print(names[i]);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// void main() {
-//   List names = ["Suheer", "Abdullah", "Ahad", "Mohammad"];
-//   for (int i = 0; i < names.length; i++) {
-//     print(names[i]);
-//   }
-// }
