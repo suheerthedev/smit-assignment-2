@@ -11,11 +11,24 @@ void main() {
     "Saturday",
     "Sunday"
   ];
+
+  print("Empty Days List:");
   print(days);
+  print("");
+
+  //For Adding Days To The List
   for (int i = 0; i < listOfDays.length; i++) {
     days.add(listOfDays[i]);
   }
+  print("Added All The Days To The List:");
   print(days);
+  print("");
+
+  //For Printing All The Days Seperately
+  print("Printed All The Days Seperately");
+  for (int j = 0; j < days.length; j++) {
+    print(days[j]);
+  }
 }
 
 
