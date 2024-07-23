@@ -33,30 +33,7 @@ void main() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Easy Method
 
 // void main() {
 //   List days = [];
