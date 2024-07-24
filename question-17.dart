@@ -7,37 +7,3 @@ void main() {
   print(integers);
   print(sqauredIntegers);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// void main() {
-//   List<int> originalList = [1, 2, 3, 4, 5];
-
-//   List<int> squaredList =
-//       originalList.map((int value) => value * value).toList();
-
-//   print("Original List: $originalList");
-//   print("Squared List: $squaredList");
-// }
