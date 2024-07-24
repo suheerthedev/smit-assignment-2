@@ -13,37 +13,3 @@ void main() {
 
   print("The Maximum Value In The List Is: $maximumValue");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// void main() {
-//   List<int> numbers = [1, 5, 10, 105, 25, 20, 30];
-
-//   // Finding the maximum value in the list using the max method
-
-//   numbers.sort();
-//   print(numbers);
-//   var maxValue = numbers.last;
-
-//   print("The maximum value is: $maxValue");
-// }
