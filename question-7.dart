@@ -10,7 +10,7 @@ void main() {
   if (expenses.containsKey('fri')) {
     expenses['fri'] = 5000.0;
   } else {
-    expenses['fri'] = 5000.0;
+    expenses.putIfAbsent('fri', () => 5000.0);
   }
 
   print(expenses);
