@@ -2,8 +2,6 @@
 
 void main() {
   Map map = {'name': 'suheer', 'phone': '012'};
-
-  map.
 }
 
 
