@@ -7,34 +7,3 @@ void main() {
   print("Original List: $originalList");
   print("New List: $newList");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// void main() {
-//   List<int> originalList = [1, -2, 3, -4, 5, -6, 7, -8, 9, -10];
-
-//   List<int> positiveNumbers =
-//       originalList.where((int number) => number > 0).toList();
-
-//   print("Original List: $originalList");
-//   print("Positive Numbers: $positiveNumbers");
-// }
