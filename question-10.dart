@@ -2,20 +2,15 @@
 
 void main() {
   List originalList = [
-    "Suheer",
-    "Abdullah",
-    "Ahad",
-    "Mohammad",
-    "Suheer",
-    "Abdullah",
-    "Ahad",
-    "Mohammad",
-    "Suheer",
-    "Abdullah",
-    "Ahad",
-    "Mohammad"
+    'Suheer',
+    'Suheer',
+    'Abdullah',
+    'Ahad',
+    'Zubair',
+    'Mohammad',
+    'Mohammad'
   ];
-  print("Old List is $originalList");
-  originalList = originalList.toSet().toList();
-  print("New List is $originalList");
+  print(originalList);
+  List newList = originalList.toSet().toList();
+  print(newList);
 }
