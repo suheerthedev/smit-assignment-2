@@ -22,29 +22,29 @@
 //   print(numbers.last);
 // }
 
-void main() {
-  List numbers = [11, 22, 33, 44, 55, 66, 77, 88, 99];
+//Comparing Method Using For Loop and if statement
+// void main() {
+//   List numbers = [11, 22, 33, 44, 55, 66, 77, 88, 99];
 
-  var largestValue = numbers[0];
-  var smallestValue = numbers[0];
+//   var largestValue = numbers[0];
+//   var smallestValue = numbers[0];
 
-  print(largestValue);
-  print(smallestValue);
+//   print(largestValue);
+//   print(smallestValue);
 
-  for (var i = 0; i < numbers.length; i++) {
-    if (numbers[i] > largestValue) {
-      largestValue = numbers[i];
-    }
+//   for (var i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > largestValue) {
+//       largestValue = numbers[i];
+//     }
 
-    if (numbers[i] < smallestValue) {
-      smallestValue = numbers[i];
-    }
-  }
+//     if (numbers[i] < smallestValue) {
+//       smallestValue = numbers[i];
+//     }
+//   }
 
-  // Printing the values
-  print("Smallest value in the list : $smallestValue");
-  print("Largest value in the list : $largestValue");
-}
+//   print("Smallest value in the list : $smallestValue");
+//   print("Largest value in the list : $largestValue");
+// }
 
 // void main() {
 //   List<int> numbers = [1, 5, 10, 15, 100, 35, 25];
